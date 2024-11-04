@@ -1,12 +1,12 @@
 import Image from 'next/image';
 
 import DownloadSection from "@/components/DownloadSection";
-import Header from "@/components/header";
 import Head from 'next/head';
 import appMockup from '../../public/3.png';
 import appMockup2 from '../../public/2.png';
 import apple from '../../public/apple.svg';
 import google from '../../public/google.svg';
+import Header from '@/components/Header';
 
 export default function Home() {
   return (
@@ -58,8 +58,6 @@ export default function Home() {
             <a href="mailto:owner@tivity.app" className="inline-block">
               <h1 className="text-black">Contact Us</h1>
             </a>
-
-
             <div className="w-2"></div>
             <h1 className="text-black">|</h1>
             <div className="w-2"></div>
