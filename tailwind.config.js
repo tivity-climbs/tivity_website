@@ -17,7 +17,7 @@ module.exports = {
         accent: '#7C3BFD',       // Accent: 7C3BFD
       },
       fontFamily: {
-        poppins: ['Poppins', 'sans-serif'],
+        poppins: ['var(--font-poppins)', 'sans-serif'],
       },
       fontWeight: {
         light: 300,
