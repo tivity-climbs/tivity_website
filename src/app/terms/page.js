@@ -5,10 +5,6 @@ import Head from 'next/head';
 export default function Terms() {
     return (
         <>
-            <Head>
-                <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet" />
-            </Head>
-
             <div className="bg-white min-h-screen w-screen">
                 <Header />
 
